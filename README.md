@@ -93,6 +93,18 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 - Website - [https://nestjs.com](https://nestjs.com/)
 - Twitter - [@nestframework](https://twitter.com/nestframework)
 
+
+
+## Documentación del Flujo (README)
+
+Registro/Login: El usuario envía credenciales.
+
+Validación: NestJS usa un servicio para consultar a la base de datos mediante Prisma.
+
+Token: Si es correcto, el servidor firma un JWT y lo devuelve.
+
+Guard: Los endpoints protegidos usan un AuthGuard para validar el token en cada petición.
+
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
